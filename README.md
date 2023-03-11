@@ -7,7 +7,7 @@ URL to the paper: http://openaccess.thecvf.com/content_CVPRW_2020/papers/w6/Mohl
 If using the concept or code, kindly cite the paper as: S. Mohla, S. Pande, B. Banerjee, and S. Chaudhuri. FusAtNet: Dual attention based spectrospatial multimodal fusion  network for hyperspectral and lidar classification. In The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2020.
 
 You can also use the bibtex as:
-
+```
 @InProceedings{Mohla_2020_CVPR_Workshops,
 author = {Mohla, Satyam and Pande, Shivam and Banerjee, Biplab and Chaudhuri, Subhasis},
 title = {FusAtNet: Dual Attention Based SpectroSpatial Multimodal Fusion Network for Hyperspectral and LiDAR Classification},
@@ -15,3 +15,4 @@ booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 month = {June},
 year = {2020}
 } 
+```
