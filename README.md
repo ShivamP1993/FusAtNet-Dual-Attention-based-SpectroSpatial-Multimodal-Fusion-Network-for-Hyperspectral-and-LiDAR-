@@ -3,10 +3,10 @@ With recent advances in sensing, multimodal data is becoming easily available fo
 
 ![alt text](images/FAN.png)
 
-URL to the paper: 
+# URL to the paper: 
 >http://openaccess.thecvf.com/content_CVPRW_2020/papers/w6/Mohla_FusAtNet_Dual_Attention_Based_SpectroSpatial_Multimodal_Fusion_Network_for_Hyperspectral_CVPRW_2020_paper.pdf
 
-Requirement:
+# Requirement:
 
 ```
 Keras with Tensorflow 1 as backend
