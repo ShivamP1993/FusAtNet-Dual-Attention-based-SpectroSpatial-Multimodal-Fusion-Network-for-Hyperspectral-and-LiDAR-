@@ -11,7 +11,7 @@ With recent advances in sensing, multimodal data is becoming easily available fo
 ```
 Keras with Tensorflow 1 as backend
 ```
-Steps:
+# Steps:
 
 ```
 1. Download the dataset from the provided URL in data folder
