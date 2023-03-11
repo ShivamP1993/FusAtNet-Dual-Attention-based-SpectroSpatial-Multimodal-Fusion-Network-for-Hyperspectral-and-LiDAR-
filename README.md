@@ -8,6 +8,17 @@ Requirement:
 ```
 Keras with Tensorflow 1 as backend
 ```
+Steps:
+
+```
+1. Download the dataset from the provided URL in data folder
+```
+```
+2. Run data_prepare.py
+```
+```
+3. Run model.py
+```
 
 If using the concept or code, kindly cite the paper as: S. Mohla, S. Pande, B. Banerjee, and S. Chaudhuri. FusAtNet: Dual attention based spectrospatial multimodal fusion  network for hyperspectral and lidar classification. In The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2020.
 
