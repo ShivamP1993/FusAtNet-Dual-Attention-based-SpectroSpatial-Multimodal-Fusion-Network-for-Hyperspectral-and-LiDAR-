@@ -23,17 +23,15 @@ Keras with Tensorflow 1 as backend
 3. Run model.py
 ```
 # Citation
-If using the concept or code, kindly cite the paper as: S. Pande and B. Banerjee. Adaptive hybrid attention network for hyperspectral image classification. In Pattern Recognition Letters, vo. 144, pages 6-12, Jan 2021.
+If using the concept or code, kindly cite the paper as: S. Mohla, S. Pande, B. Banerjee, and S. Chaudhuri. FusAtNet: Dual attention based spectrospatial multimodal fusion  network for hyperspectral and lidar classification. In The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, June 2020.
 
 You can also use the bibtex as:
 ```
-@article{pande2021adaptive,
-  title={Adaptive hybrid attention network for hyperspectral image classification},
-  author={Pande, Shivam and Banerjee, Biplab},
-  journal={Pattern Recognition Letters},
-  volume={144},
-  pages={6--12},
-  year={2021},
-  publisher={Elsevier}
-}
+@InProceedings{Mohla_2020_CVPR_Workshops,
+author = {Mohla, Satyam and Pande, Shivam and Banerjee, Biplab and Chaudhuri, Subhasis},
+title = {FusAtNet: Dual Attention Based SpectroSpatial Multimodal Fusion Network for Hyperspectral and LiDAR Classification},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2020}
+} 
 ```
