@@ -44,20 +44,19 @@ def make_patches(X, y, windowSize):
 data = sio.loadmat('/data/houston2013.mat')
 
 # Concatenating HSI and LiDAR bands from the data and removing spurious pixels
-feats = np.concatenate([data['hsi'][4:346,4:1902,:], 
-                        np.expand_dims(data['lidar'][4:346,4:1902], axis = 2)], axis = 2)
+feats = np.concatenate([data['hsi'], np.expand_dims(data['lidar'], axis = 2)], axis = 2)
 
 # Normalising the bands using min-max normalization 
 
-feats_norm = np.empty([342,1898,145], dtype = 'float32')
+feats_norm = np.empty([349,1905,145], dtype = 'float32')
 for i in tqdm.tqdm(range(145)):
   feats_norm[:,:,i] = feats[:,:,i]-np.min(feats[:,:,i])
   feats_norm[:,:,i] = feats_norm[:,:,i]/np.max(feats_norm[:,:,i])
 
 ## REading train and test groundtruth images
 
-train = data['train'][4:346,4:1902]
-test = data['test'][4:346,4:1902]
+train = data['train']
+test = data['test']
 
 # Create train patches
 train_patches, train_labels, index_train = make_patches(feats_norm, train, 11)
